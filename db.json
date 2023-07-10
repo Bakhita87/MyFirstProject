@@ -1,0 +1,150 @@
+{
+  "providers": [
+    {
+      "id": 1,
+      "name": "Make Up City",
+      "image": "asset/Makeupcity.jpg",
+      "city": "Naivasha,Kenya",
+      "rating": 5,
+      "additionalImages": [
+        "../asset/lush.jpg",
+        "../asset/picture2.jpg",
+        "../asset/Hair.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "lush makeup Artistry",
+      "image": "asset/lush.jpg",
+      "city": "Eldoret,Kenya",
+      "rating": 3
+    },
+    {
+      "id": 3,
+      "name": "Beauty Makeup Artistry",
+      "image": "asset/Beauty.jpg",
+      "city": "Nanyuki,Kenya",
+      "rating": 3
+    },
+    {
+      "id": 4,
+      "name": "Nara Hair Salon",
+      "image": "asset/Makeupbeauty.jpg",
+      "city": "Kisumu,Kenya",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "name": "Quality  Hair Palace",
+      "image": "asset/Braids.jpg",
+      "city": "Mombasa,Kenya",
+      "rating": 5
+    }
+    
+    
+    
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": " ",
+      "password": " ",
+      "role": ""
+    },
+    {
+      "name": "maryotieno@gmail.com",
+      "password": "Bakhita",
+      "id": 2
+    },
+    {
+      "name": "maryotieno@gmail.com",
+      "password": "Bakhit",
+      "id": 3
+    },
+    {
+      "name": "maryotieno@gmail.com",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "maryotieno@gmail.com",
+      "password": "",
+      "id": 5
+    },
+    {
+      "name": "maryotieno@gmail.com",
+      "password": "",
+      "id": 6
+    },
+    {
+      "name": "bakhitaotieno@gmail.com",
+      "password": "Makinischool",
+      "id": 7
+    },
+    {
+      "name": "bakhitaotieno@gmail.com",
+      "password": "Makinischool",
+      "id": 8
+    },
+    {
+      "name": "bakhitaotieno@gmail.com",
+      "password": "Makinischool",
+      "id": 9
+    },
+    {
+      "name": "bakhitaotieno@gmail.com",
+      "password": "Makinischool",
+      "id": 10
+    },
+    {
+      "name": "bakhitaotieno@gmail.com",
+      "password": "Makinischool",
+      "id": 11
+    },
+    {
+      "name": "bakhitaotieno@gmail.com",
+      "password": "Makinischool",
+      "id": 12
+    },
+    {
+      "name": "bakhitaotieno@gmail.com",
+      "password": "Makinischool",
+      "id": 13
+    },
+    {
+      "name": "bakhitaotieno@gmail.com",
+      "password": "",
+      "id": 14
+    },
+    {
+      "id": 15,
+      "email": "bakhitaotieno@gmail.com",
+      "password": "Emmanuel",
+      "role": "user"
+    },
+    {
+      "id": 16,
+      "email": "bakhitaotieno@gmail.com",
+      "password": "Emmanuel",
+      "role": "Provider"
+    },
+    {
+      "id": 17,
+      "email": "bakhitaotieno2@gmail.com",
+      "password": "Emmanuel",
+      "role": "Provider"
+    },
+    {
+      "id": 18,
+      "email": "sam@Tomashi.dev",
+      "password": "Bakhita",
+      "role": "user"
+    },
+    {
+      "id": 19,
+      "email": "",
+      "password": "",
+      "role": "Provider"
+    }
+  ]
+}

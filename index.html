@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pretty Parlour</title>
+</head>
+<body>
+  <!--Add a div of section to put a picture on a landing page-->
+    <section id="banner">
+  <!--Added a nav tag for the navlinks-->
+   <nav>
+       <ul>
+          <li><a href=" # ">Home</a></li>
+          <li><a href=" #link ">Services</a></li>
+        </ul>
+    </nav>
+  <!--Added a div class of center to center our signup button-->
+    <div class="center">
+  <!--Added a button for the sign up button -->
+      <button id="show-createaccount">Sign up</button>
+   </div>
+   <!--Added a div class popUp for the form when it pops up-->
+   <div class="popup" id="popup">
+   <!--Added a div  for the close button-->
+    <div class="close-btn">&times</div>
+  <!--Write a form tag to input data-->
+   <form>
+    <h1>Create Account</h1>
+    <!--Add a select tag for the dropdown list-->
+    <label for="roles">Choose role</label>
+  <select name="roles" id="roles">
+    <option value="Provider">Provider</option>
+    <option value="user">User</option>
+    
+  </select>
+     <br> <label>Email </label>   </br>
+      <br><input type="text" id="email" placeholder="Enter email" name="user" required> </br> 
+         <br>   <label>Password  </label>   <br>
+           <br> <input type="password" id="password" placeholder="Enter Password" name="password" required> </br> 
+            <br><button type="button" onclick="giveData(event)">Create account</button>  </br> 
+         
+  </form>
+    </div> 
+   </div>
+    <!-- A button to open the popup form -->
+    <div class="centerWork">
+      <button id="show-login">Login</button>
+    </div>
+    <!--A div class for the form when it pops up-->
+   <div class="form-popup">
+    <!--Div class for the close button on the form-->
+    <div class="exit-btn">&times</div>
+    <!--Write a form tag-->
+      <form>
+     <br> <label>Email </label>   </br>
+      <br><input type="text" id="Email" placeholder="Enter email" name="user" required> </br> 
+         <br>   <label>Password  </label>   <br>
+           <br> <input type="password" id="Password" placeholder="Enter Password" name="password" required> </br> 
+            <br><button type="button" onclick="putData(event)">Login</button>  </br> 
+      </form>
+    </div> 
+ </div>
+</div>
+</div>
+</div>
+  
+  
+   </div>
+   </section>
+
+   <!--About us and what we offer-->
+   <div class="service">
+     What we offer
+   </div>
+ <div class="row" id="link">
+    <div class="col" id="new">
+        <h3>Makeup</h3>
+     </div>
+    <div class="col">
+    <h3>Hair</h3>
+    </div>
+    <div class="col">
+        <h3>Nails</h3>
+    </div>
+  </div>
+  <!--Add a another container to show more about what the website does-->
+<div class="big-container">
+  <div class="heading">
+    <h4>Unlock a world of fashion and beauty.</h4>
+    <p class="paragraph" >using Pretty parlour today.
+      Browse through a wide range of beauty and grooming specialists in your area. Achieve your best look.</p>
+  <h5>Get in touch</h5>
+        <p>
+       For any enquiries please leave a message below. We'd love to hear your thoughts and feedback.
+        bakhitaotieno@gmail.com
+          You can also contact us on our Whatsapp line. 
+        </p>
+    </div>
+  </div>
+  </body>
+  <!--Added a footer tag-->
+  <footer>
+     Achieve the look you want with Kenya’s most reliable independent beauty service provider's platform.© 2023 Kenya. All rights reserved.
+  </footer>
+ <!--Added a script tag to link the index js to the html file--> 
+<script src="js/index.js"></script>
+
+</body>
+</html>
